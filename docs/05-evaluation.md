@@ -54,14 +54,4 @@ Without proper evaluation, you cannot know if your improvements are real or just
 5. Iterate with advanced techniques
 6. Re-evaluate
 
----
-
-**Congratulations!**  
-You have completed the core documentation set for your RAG learning journey.
-
-**Next Actions:**
-- Read all 5 docs
-- Start implementing from `notebooks/01-naive-rag`
-- Track your progress in `ROADMAP.md`
-
-Happy Learning! 🚀
+-
