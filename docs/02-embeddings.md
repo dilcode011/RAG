@@ -1,4 +1,3 @@
-```markdown
 # 02 - Embeddings & Similarity Search
 
 ## What are Embeddings?
