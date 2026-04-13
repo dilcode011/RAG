@@ -28,11 +28,12 @@ Good document loading is crucial because **garbage in = garbage out** in RAG sys
 - `MarkdownLoader`
 
 ### 2. Document Format Loaders
-- `PyPDFLoader` / `PyMuPDFLoader` (fastest for PDFs)
+- `PyPDFLoader` (simple ,clean)
+- `PyMuPDFLoader` (for layout and image data)
 - `PDFPlumberLoader` (excellent for tables)
-- `UnstructuredPDFLoader` (best for complex layouts, images, tables)
+- `UnstructuredPDFLoader` / `AmazonTextractPDFLoader` (best for complex layouts, images, tables)
 - `Docx2txtLoader` / `DocxLoader`
-- `UnstructuredWordDocumentLoader`
+- `UnstructuredWordDocumentLoader` (want best structure extraction)
 
 ### 3. Web & API Loaders
 - `WebBaseLoader` (BeautifulSoup)
