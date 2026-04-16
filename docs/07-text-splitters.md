@@ -31,3 +31,13 @@ This is one of the **most critical steps** in a RAG pipeline because:
 | `HTMLHeaderTextSplitter`          | By HTML headers                     | Web pages & HTML                      | Keeps hierarchy                   | HTML-specific                     | For HTML   |
 | `RecursiveJsonSplitter`           | For JSON data                       | Structured JSON documents             | Maintains structure               | JSON only                         | For JSON   |
 | `CodeSplitter`                    | By language syntax                  | Source code (.py, .js, etc.)          | Preserves code blocks             | Language-specific                 | For Code   |
+
+
+
+`chunk:` a boolean indicating whether to split text into chunks. Default is false.
+
+`chunkSize:` a number indicating the maximum size of each chunk. Default is 1000.
+
+`overlap:` a number indicating the amount of overlap between chunks. Default is 200.
+
+`lengthFn:` a function that returns the length of a text chunk. Default is based on the tokenizer used.
